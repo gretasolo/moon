@@ -1,38 +1,196 @@
-.App {
+@media only screen and (max-width: 500px) {
+  .container {
+    display: block !important; 
+  }
+
+  .iframe{
+    width: 300px !important;
+    height: 181px !important;
+  }
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+button {
+  font-family: 'Arimo', sans-serif;
+}
+
+#profilepage {
+  border: solid white;
+}
+.firstline {
+  background: rgba(25, 85, 26, 0.5);
+  box-shadow: 5px 5px 20px #888888;
+  width: 100%;
+  /* display:flex; */
+  z-index: 0;
+  height: 55px;
+   /* background-color:rgb(25, 85, 26);
+   opacity: 0.5; */
+}
+
+
+#learn {
+  /* background-color:black; */
+  /* color: white; */
+  font-size: 15px;
+  width: 100px;
+  height: 55px;
+  z-index: 1;
+  opacity: 1;
+  border: none;
+  float: right;
+  background: none;
+}
+
+#learn:hover {
+  background:transparent;
+  color:white;
+}
+#chrome {
+  /* background-color:black; */
+  /* color: white; */
+  font-size: 15px;
+  width: 150px;
+  height: 55px;
+  z-index: 100;
+  opacity: 1;
+  border: none;
+  float: right;
+  background: none;
+}
+#chrome:hover {
+  background:transparent;
+  color:white; }
+
+#vegan {
+  background-color:rgb(25, 85, 26);
+  text-align: center;
+  padding: 10%;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5%;
+  margin-bottom: 10%;
+}
+
+.video {
+  margin: 5%;
+  text-align: center;
+  /* margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 10px; */
+}
+.iframe{
+  width: 520px; 
+  height: 315px;
+}
+
+#iconbutton {
+  margin-top: 3em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 100px;
+  
+}
+
+#iconbutton:hover {
+  opacity: 50%;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* height: 55px; */
+  
+}
+#canyou {
+  color: black;
+  font-size: 20px;
+  justify-content: center;
+  /* height: 55px; */
+  display: block;
+}
+
+.displayco2 {
+  color: black;
+  
+  
+  font-size: 20px;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.clickers {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+.bighd {
+  display: flex;
+}
+
+#line {
+  display: block;
+  
+}
+
+#text1 {
+  background:rgb(25, 85, 26);
+  margin: 10px;
   color: white;
+  font-size: 16px;
+  border: none;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width:7%;
+
 }
 
-.App-link {
-  color: #61dafb;
+#text1:hover {
+  background:green;
+  color:black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#text2 {
+  background:rgb(25, 85, 26);
+  margin: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width:7%;
+
 }
+#text2:hover {
+  background:green;
+  color:black;
+}
+
+#learnmore {
+  color: white;
+  background-color:rgb(25, 85, 26);
+  font-size: 20px;
+  /* text-align: center; */
+  justify-content: center;
+  padding: 10%;
+ 
+}
+
+
+
+
