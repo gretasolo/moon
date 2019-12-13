@@ -17,7 +17,13 @@ button {
   font-size: 40px;
   text-align: center;
   background-color: white;
+  color: black;
   opacity: 50%;
+
+  
+}
+#titleline {
+  margin-top: 5px;
   
 }
 #learnmore {
@@ -25,7 +31,7 @@ button {
   font-size: 20px;
   /* text-align: center; */
   justify-content: center;
-  padding: 10%;
+  padding: 5%;
  
 }
 /* #profilepage {

@@ -32,7 +32,7 @@ function fcoMode (e) {
     <div className='main'>
       <div id= "title"> <strong><p id="titleline"> The Evolution of 嫦娥 </p> </strong></div>
 
-<h1><strong>The story of Chang'E 嫦娥</strong> </h1>
+<h1><strong>The Story</strong> </h1>
 
 <u>1: </u>
 
@@ -45,7 +45,7 @@ function fcoMode (e) {
 
 
 
-
+<h1><strong>Explore the Many Visions of Chang' E </strong> </h1>
       <div className= 'clickclack'>
       <p id= "piccos">
       <img id="iconbutton"  src={(activate === "text1") ? mainContent[0] : mainContent[1]}  height="215" width="320" alt="valueeee"></img>
