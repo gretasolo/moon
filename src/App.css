@@ -20,6 +20,14 @@ button {
   opacity: 50%;
   
 }
+#learnmore {
+  color: white;
+  font-size: 20px;
+  /* text-align: center; */
+  justify-content: center;
+  padding: 10%;
+ 
+}
 /* #profilepage {
   border: solid white;
 } */
@@ -147,6 +155,133 @@ button {
 
 }
 #text2:hover {
+  background: yellow;
+  color:black;
+}
+
+
+
+
+
+
+
+#nainContent {
+  max-width: 5px;
+}
+button {
+  font-family: 'Karla', sans-serif;
+}
+.girstline {
+  background: rgba(25, 85, 26, 0.5);
+  box-shadow: 5px 5px 20px #888888;
+  width: 100%;
+  /* display:flex; */
+  z-index: 0;
+  height: 55px;
+   /* background-color:rgb(25, 85, 26);
+   opacity: 0.5; */
+}
+
+.dlickdlack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10%;
+  margin-top: 2%;
+  height: 300px;
+
+}
+
+
+#jconbutton {
+  /* margin-top: 3em; */
+  display: block;
+  margin: 5%;
+  text-align: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* height: 100px;
+  width: 100px; */
+}
+#girstpic {
+  display: block;
+  margin: 5%;
+  text-align: center;
+}
+/* .vext {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* height: 55px; */
+   */
+/* } */
+#whichversion {
+  color:white;
+  font-size: 20px;
+  justify-content: center;
+  /* height: 55px; */
+  display: block;
+}
+
+.fisplayco2 {
+  color: white;
+
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.dlickers {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15%;
+}
+#piccolo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0%;
+  margin-bottom: 10%;
+
+}
+
+#mine {
+  display: block;
+}
+
+#text3 {
+  background:black;
+  margin: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width:10%;
+
+}
+
+#text3:hover {
+  background:red;
+  color:black;
+}
+
+#text4 {
+  background: black;
+  margin: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width:10%;
+
+}
+#text4:hover {
   background: yellow;
   color:black;
 }
