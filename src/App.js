@@ -2,7 +2,7 @@ import React, {useState, useEffect, useRef} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-let mainContent = ["http://bit.ly/34iwwm0","http://bit.ly/34bWvvu","http://bit.ly/2Eb4jTx"]
+let mainContent = ["http://bit.ly/34iwwm0","http://bit.ly/34bWvvu"]
 
 function App() {
   return (
@@ -21,20 +21,21 @@ function Profile(props) {
  }
 
   return (
-    <div className="main">
-      <div id= "title"> <p id="titleline"> The Evolution of 嫦娥 </p> </div>
-      <p>
-      <img id="iconbutton"  src={(activate === "text1") ? "" : mainContent[1]}  height="200" width="100" alt="value"/>
-      <img id="firstpic" src={(activate==="text2") ? "" : mainContent[2]} height="315" width="520" alt="value"></img>
+    <div className='main'>
+      <div id= "title"> <strong><p id="titleline"> The Evolution of 嫦娥 </p> </strong></div>
+      <div className= 'clickclack'>
+      <p id= "piccos">
+      <img id="iconbutton"  src={(activate === "text1") ? mainContent[0] : mainContent[1]}  height="215" width="320" alt="valueeee"></img>
+      <img id="firstpic" src={(activate==="text2") ? mainContent[1] : mainContent[0]} height="300" width="200" alt="value"></img>
       </p>
-     
+      </div>
     
       <div className = "clickers">
         <div id= "canyou"> <p id="line"> Which version of the story of Chang'E do you want? </p>
-        <button id = "text1" onClick={ecoMode}> <strong><p> Version 1! </p></strong></button>
-        <button id = "text2" onClick={ecoMode}> <strong><p> Version 2! </p></strong></button>
+        <button id = "text1" onClick={ecoMode}> <strong><p> Old 嫦娥! </p></strong></button>
+        <button id = "text2" onClick={ecoMode}> <strong><p> New 嫦娥! </p></strong></button>
         </div>
-        <p className ="displayco2">{(activate==="text1") ? "This version of Chang'E was written by a number of Chinese feminist writers in the " : ""} {(activate==="text2") ? "The difference is that you are saving 50kg of CO2 with Ecomode on the right video" : ""}</p>
+        <p className ="displayco2">{(activate==="text1") ? "This version of Chang'E was written in the Ming Dynasty but a Chinese painter." : ""} {(activate==="text2") ? "This version of Chang'E was written by a number of Chinese feminist writers in the" : ""}</p>
         
       </div>
       </div>
