@@ -2,7 +2,7 @@ import React, {useState, useEffect, useRef} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-let mainContent = ["http://bit.ly/2WYqaX0","https://ampr.gs/33zv8fh","http://bit.ly/2O5M32H"]
+let mainContent = ["http://bit.ly/34iwwm0","http://bit.ly/34bWvvu","http://bit.ly/2Eb4jTx"]
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function Profile(props) {
 
   return (
     <div className="main">
+      <div id= "title"> <p id="titleline"> The Evolution of 嫦娥 </p> </div>
       <p>
       <img id="iconbutton"  src={(activate === "text1") ? "" : mainContent[1]}  height="200" width="100" alt="value"/>
       <img id="firstpic" src={(activate==="text2") ? "" : mainContent[2]} height="315" width="520" alt="value"></img>
