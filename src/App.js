@@ -129,8 +129,13 @@ It is said that Chang E waas married to Yi. Their story transformed into folk le
 
 <div id = "story3"><p>
 I hope that by identifying these different "heroines" and trapped women in history, you can both appreciate past recollections of Chinese myths as well as look forward to building stronger women through storytelling of the past, present, and future. If you want to learn more I suggest future readings https://books.google.com/books/about/When_the_moon_waxes_red.html?id=Tw0bAQAAIAAJ https://epdf.pub/the-eternal-present-of-the-past-china-studies.html </p></div>
+
+
 </div>
   )
+
+
+
 }
 //https://epdf.pub/the-eternal-present-of-the-past-china-studies.html
 //5–7. Tang Yin (attributed). Portrait of  Yingying. Hou Zhenshang Zhai collection. Reproduced from Comprehensive Illustrated Catalog of  Chinese Paintings, Vol. 2: South-east  Asian  and  European  Collections,  edited  by  Suzuki  Kei,  II-2,  S  1-008.Tokyo: University of  Tokyo Press, 1982.HSIAO_f7-202-250.indd   2423/20/2007   1:47:01 PM
