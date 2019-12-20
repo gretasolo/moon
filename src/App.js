@@ -122,12 +122,12 @@ It is said that Chang E waas married to Yi. Their story transformed into folk le
     <button id = "text7" onClick={ecoMode}> <strong><p> Old 嫦娥! </p></strong></button>
     <button id = "text8" onClick={ecoMode}> <strong><p> New 嫦娥! </p></strong></button>
     </div>
-    <p className ="gisplayco2">{(activate==="text8") ? "This version of Chang'E was written in the Ming Dynasty but a Chinese painter." : ""} {(activate==="text2") ? "This version of Chang'E was written by a number of Chinese feminist writers in the" : ""}</p>
+    <p className ="gisplayco2">{(activate==="text8") ? "Xu  Wei  describes  Tang  Yin’s  original  portrait  of   Yingying  in  the  poem  “Tang  Bohu  Paints  Lady  Cui”  (Tang  Bohu  hua  Cui  shi):It  seems  as  though  I  am  meeting  that  person  waiting  for  the  moon. I  do  not  know  the  date  this  evening. The  drifting  clouds  were  always  dispersed  in  those  years  of   the  past.The  foreign  powder  transmits  emptily  the  beauty  of   her  half   face. It  is  difficult not to have an aged complexion after marriage. She  who  was  copied  in  the  painting  must  also  have  become  aged. Hutou  [Tang  Bohu]  was  also  a  womanizer. He  specically presents a beauty to move the common people.86" : ""}</p>
     
   </div></div>
   )
 }
-
+//https://epdf.pub/the-eternal-present-of-the-past-china-studies.html
 
 
 export default App;
