@@ -4,8 +4,8 @@ import './App.css';
 
 let mainContent = ["http://bit.ly/34iwwm0","http://bit.ly/34bWvvu"]
 let nainContent = ["http://bit.ly/34iwwm0","http://bit.ly/34bWvvu"]
-let painContent = ["http://bit.ly/2SdbCCy", "http://bit.ly/34bWvvu"]
-let qainContent = ["http://bit.ly/2SdbCCy", "http://bit.ly/34bWvvu"]
+let painContent = ["https://i.ibb.co/pQWQbSk/Screen-Shot-2019-12-20-at-1-47-38-AM.png", "http://www.silkqin.com/01mywk/themes/nvlopr/xxjw.gif"]
+let qainContent = ["https://i.ibb.co/wSwjVcB/Screen-Shot-2019-12-20-at-2-02-55-AM.png", "https://i.ibb.co/7Ct9cFY/Screen-Shot-2019-12-20-at-2-03-07-AM.png"]
 
 function App() {
   return (
@@ -34,7 +34,7 @@ function fcoMode (e) {
     <div id= "learnmore"> 
        
     <div className='main'>
-      <div id= "title"> <strong><p id="titleline"> The Evolution of 嫦娥 </p> </strong></div>
+      <div id= "title"> <strong><p id="titleline"> 嫦娥 and Chinese 海落因 History </p> </strong></div>
 
 <h1><strong>The Story</strong> </h1>
 
@@ -61,8 +61,8 @@ It is said that Chang E waas married to Yi. Their story transformed into folk le
     
       <div className = "clickers">
         <div id= "canyou"> <p id="line"> Did Chang'E drink the elixir? </p>
-        <button id = "text1" onClick={ecoMode}> <strong><p> Old 嫦娥! </p></strong></button>
-        <button id = "text2" onClick={ecoMode}> <strong><p> New 嫦娥! </p></strong></button>
+        <button id = "text1" onClick={ecoMode}> <strong><p> No! </p></strong></button>
+        <button id = "text2" onClick={ecoMode}> <strong><p> Yes! </p></strong></button>
         </div>
         <p className ="displayco2">{(activate==="text1") ? "This version of Chang'E was written in the Ming Dynasty but a Chinese painter." : ""} {(activate==="text2") ? "This version of Chang'E was written by a number of Chinese feminist writers in the" : ""}</p>
         
@@ -96,38 +96,45 @@ It is said that Chang E waas married to Yi. Their story transformed into folk le
 
 <div className= 'elickelack'>
       <p id= "piccono">
-      <img id="kconbutton"  src={(activate === "text5") ? painContent[0] : painContent[1]}  height="215" width="320" alt="valueeee"></img>
-      <img id="hirstpic" src={(activate==="text6") ? painContent[1] : painContent[0]} height="300" width="200" alt="value"></img>
+      <img id="kconbutton"  src={(activate === "text5") ? painContent[0] : painContent[1]}  height="300" width="200" alt="valueeee"></img>
+      <img id="birstpic" src={(activate==="text6") ? painContent[1] : painContent[0]} height="300" width="200" alt="value"></img>
       </p>
       </div>
     
       <div className = "elickers">
-        <div id= "eanyou"> <p id="nine"> Did Chang'Eeee drink the elixir? </p>
-        <button id = "text5" onClick={ecoMode}> <strong><p> Old 嫦娥! </p></strong></button>
-        <button id = "text6" onClick={ecoMode}> <strong><p> New 嫦娥! </p></strong></button>
+        <div id= "eanyou"> <p id="nine"> Is this Yiying or Chang'e? </p>
+        <button id = "text5" onClick={ecoMode}> <strong><p> Yiying! </p></strong></button>
+        <button id = "text6" onClick={ecoMode}> <strong><p> Chang'E! </p></strong></button>
         </div>
-        <p className ="gisplayco2">{(activate==="text5") ? "This version of Chang'E was written in the Ming Dynasty but a Chinese painter." : ""} {(activate==="text2") ? "This version of Chang'E was written by a number of Chinese feminist writers in the" : ""}</p>
+        <p className ="gisplayco2">{(activate==="text5") ? "Yes, Yiyinng. Yingying  is  the  heroine  in  one  of   China’s  most  famous  short  stories,  Yingying  zhuan  by  Yuan  Zhen,  but  Tang  Yin’s  painting  seems  to  derive  explicitly  from  the  representation  of   Yingying  in  Wang  Shifu’s  classic  drama Xixiang  ji. " : ""} {(activate==="text6") ? "No, this is Yiying, a new Chinese female heroine. Refresh and try again." : ""}</p>
+        
         
       </div>
 
   <div className= 'flickelack'>
   <p id= "piccopo">
-  <img id="lconbutton"  src={(activate === "text7") ? qainContent[0] : qainContent[1]}  height="215" width="320" alt="valueeee"></img>
+  <img id="lconbutton"  src={(activate === "text7") ? qainContent[0] : qainContent[1]}  height="300" width="200" alt="valueeee"></img>
   <img id="hirstpic" src={(activate==="text8") ? qainContent[1] : qainContent[0]} height="300" width="200" alt="value"></img>
   </p>
   </div>
 
   <div className = "elickers">
-    <div id= "eanyou"> <p id="oine"> Did Chang'Eeee frink the elixir? </p>
-    <button id = "text7" onClick={ecoMode}> <strong><p> Old 嫦娥! </p></strong></button>
-    <button id = "text8" onClick={ecoMode}> <strong><p> New 嫦娥! </p></strong></button>
+    <div id= "eanyou"> <p id="oine"> Learn more about Yiying. </p>
+    <button id = "text7" onClick={ecoMode}> <strong><p> Xu  Wei's Version(1521-1593) </p></strong></button>
+    <button id = "text8" onClick={ecoMode}> <strong><p> Zhao Bingwen's Version(1159–1232) </p></strong></button>
     </div>
-    <p className ="gisplayco2">{(activate==="text8") ? "Xu  Wei  describes  Tang  Yin’s  original  portrait  of   Yingying  in  the  poem  “Tang  Bohu  Paints  Lady  Cui”  (Tang  Bohu  hua  Cui  shi):It  seems  as  though  I  am  meeting  that  person  waiting  for  the  moon. I  do  not  know  the  date  this  evening. The  drifting  clouds  were  always  dispersed  in  those  years  of   the  past.The  foreign  powder  transmits  emptily  the  beauty  of   her  half   face. It  is  difficult not to have an aged complexion after marriage. She  who  was  copied  in  the  painting  must  also  have  become  aged. Hutou  [Tang  Bohu]  was  also  a  womanizer. He  specically presents a beauty to move the common people.86" : ""}</p>
+    <p className ="gisplayco2">{(activate==="text7") ? "Xu  Wei  describes  Tang  Yin’s  original  portrait  of   Yingying  in  the  poem  “Tang  Bohu  Paints  Lady  Cui”  (Tang  Bohu  hua  Cui  shi):It  seems  as  though  I  am  meeting  that  person  waiting  for  the  moon. I  do  not  know  the  date  this  evening. The  drifting  clouds  were  always  dispersed  in  those  years  of   the  past.The  foreign  powder  transmits  emptily  the  beauty  of   her  half   face. It  is  difficult not to have an aged complexion after marriage. She  who  was  copied  in  the  painting  must  also  have  become  aged. Hutou  [Tang  Bohu]  was  also  a  womanizer. He  specically presents a beauty to move the common people.": ""} {(activate==="text8") ? "In  his  poem  “Stele  for  the Late Lord” (Xian gong bei), Zhao Bingwen (1159–1232) writes: “[ The Lord] also searched for [the person who wrote] the poem about waiting for the moon in the west chamber.”  In  this  case,  the  allusion  to  Yingying  is  unmistakable,  and  she  symbolizes  the  ideal  companion  desired  by  a  man." : ""}</p>
     
-  </div></div>
+  </div>
+
+<div id = "story3"><p>
+I hope that by identifying these different "heroines" and trapped women in history, you can both appreciate past recollections of Chinese myths as well as look forward to building stronger women through storytelling of the past, present, and future. If you want to learn more I suggest future readings https://books.google.com/books/about/When_the_moon_waxes_red.html?id=Tw0bAQAAIAAJ https://epdf.pub/the-eternal-present-of-the-past-china-studies.html </p></div>
+</div>
   )
 }
 //https://epdf.pub/the-eternal-present-of-the-past-china-studies.html
+//5–7. Tang Yin (attributed). Portrait of  Yingying. Hou Zhenshang Zhai collection. Reproduced from Comprehensive Illustrated Catalog of  Chinese Paintings, Vol. 2: South-east  Asian  and  European  Collections,  edited  by  Suzuki  Kei,  II-2,  S  1-008.Tokyo: University of  Tokyo Press, 1982.HSIAO_f7-202-250.indd   2423/20/2007   1:47:01 PM
+
 
 
 export default App;

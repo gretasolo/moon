@@ -22,6 +22,9 @@ body {
   font-weight: 400;
   
 }
+#story3 {
+  text-align: center;
+}
 
 #mainContent {
   max-width: 5px;
@@ -328,7 +331,7 @@ button {
   /* height: 100px;
   width: 100px; */
 }
-#hirstpic {
+#birstpic {
   display: block;
   margin: 5%;
   text-align: center;
@@ -390,7 +393,7 @@ button {
 }
 
 #text5:hover {
-  background:red;
+  background:yellow;
   color:black;
 }
 
@@ -407,7 +410,7 @@ button {
 
 }
 #text6:hover {
-  background: yellow;
+  background: red;
   color:black;
 }
 
@@ -451,7 +454,7 @@ button {
   /* height: 100px;
   width: 100px; */
 }
-#iirstpic {
+#hirstpic {
   display: block;
   margin: 2%;
   text-align: center;
@@ -497,6 +500,7 @@ button {
 
 #oine {
   display: block;
+
 }
 
 #text7 {
@@ -508,7 +512,7 @@ button {
   padding: 0.5em;
   border-radius: 0.3em;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  width:10%;
+  width:15%;
 }
 
 #text7:hover {
@@ -525,7 +529,7 @@ button {
   border-radius: 0.3em;
   padding: 0.5em;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  width:10%;
+  width:15%;
 
 }
 #text8:hover {
