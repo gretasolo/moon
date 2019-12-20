@@ -7,6 +7,22 @@ body {
   font-family: 'Karla', sans-serif;
   background-color: purple;
 }
+
+#story1 {
+  background-color: white;
+  color: black;
+  opacity: 50%;
+  font-weight: 400;
+  
+}
+#story2 {
+  background-color: white;
+  color: black;
+  opacity: 50%;
+  font-weight: 400;
+  
+}
+
 #mainContent {
   max-width: 5px;
 }
@@ -19,12 +35,9 @@ button {
   background-color: white;
   color: black;
   opacity: 50%;
-
-  
 }
 #titleline {
   margin-top: 5px;
-  
 }
 #learnmore {
   color: white;
@@ -47,17 +60,15 @@ button {
    /* background-color:rgb(25, 85, 26);
    opacity: 0.5; */
 }
-
 .clickclack {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   margin-top: 2%;
   height: 300px;
 
 }
-
 .container{
   display: flex;
   flex-direction: row;
@@ -105,8 +116,6 @@ button {
 
 .displayco2 {
   color: white;
-  
-  
   font-size: 20px;
   justify-content: center;
   text-align: center;
@@ -168,7 +177,7 @@ button {
 
 
 
-
+/* second */
 
 
 #nainContent {
@@ -195,34 +204,20 @@ button {
   margin-bottom: 10%;
   margin-top: 2%;
   height: 300px;
-
 }
-
 
 #jconbutton {
   /* margin-top: 3em; */
   display: block;
   margin: 5%;
   text-align: center;
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* height: 100px;
-  width: 100px; */
 }
 #girstpic {
   display: block;
   margin: 5%;
   text-align: center;
 }
-/* .vext {
-  color: white;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  /* height: 55px; */
-   */
-/* } */
+
 #whichversion {
   color:white;
   font-size: 20px;
@@ -293,7 +288,247 @@ button {
 }
 
 
+/* third */
+
+#painContent {
+  max-width: 5px;
+}
+button {
+  font-family: 'Karla', sans-serif;
+}
+.hirstline {
+  background: rgba(25, 85, 26, 0.5);
+  box-shadow: 5px 5px 20px #888888;
+  width: 100%;
+  /* display:flex; */
+  z-index: 0;
+  height: 55px;
+   /* background-color:rgb(25, 85, 26);
+   opacity: 0.5; */
+}
+
+.elickdlack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10%;
+  margin-top: 2%;
+  height: 300px;
+
+}
 
 
+#kconbutton {
+  /* margin-top: 3em; */
+  display: block;
+  margin: 5%;
+  text-align: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* height: 100px;
+  width: 100px; */
+}
+#hirstpic {
+  display: block;
+  margin: 5%;
+  text-align: center;
+}
+/* .vext {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* height: 55px; */
+   */
+/* } */
+#xhichversion {
+  color:white;
+  font-size: 20px;
+  justify-content: center;
+  /* height: 55px; */
+  display: block;
+}
+
+.gisplayco2 {
+  color: white;
+
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.elickers {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15%;
+}
+#piccono {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0%;
+  margin-bottom: 10%;
+
+}
+
+#nine {
+  display: block;
+}
+
+#text5 {
+  background:black;
+  margin: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width:10%;
+
+}
+
+#text5:hover {
+  background:red;
+  color:black;
+}
+
+#text6 {
+  background: black;
+  margin: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width:10%;
+
+}
+#text6:hover {
+  background: yellow;
+  color:black;
+}
+
+/* fourth */
+
+#qainContent {
+  max-width: 5px;
+}
+button {
+  font-family: 'Karla', sans-serif;
+}
+.iirstline {
+  background: rgba(25, 85, 26, 0.5);
+  box-shadow: 5px 5px 20px #888888;
+  width: 100%;
+  /* display:flex; */
+  z-index: 0;
+  height: 55px;
+   /* background-color:rgb(25, 85, 26);
+   opacity: 0.5; */
+}
+
+.flickdlack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  height: 300px;
+
+}
 
 
+#lconbutton {
+  /* margin-top: 3em; */
+  display: block;
+  margin: 2%;
+  text-align: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* height: 100px;
+  width: 100px; */
+}
+#iirstpic {
+  display: block;
+  margin: 2%;
+  text-align: center;
+}
+/* .vext {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* height: 55px; */
+   */
+/* } */
+#yhichversion {
+  color:white;
+  font-size: 20px;
+  justify-content: center;
+  /* height: 55px; */
+  display: block;
+}
+
+.hisplayco2 {
+  color: white;
+
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.flickers {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2%;
+}
+#piccopo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0%;
+  margin-bottom: 2%;
+
+}
+
+#oine {
+  display: block;
+}
+
+#text7 {
+  background:black;
+  margin: 2%;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width:10%;
+}
+
+#text7:hover {
+  background:red;
+  color:black;
+}
+
+#text8 {
+  background: black;
+  margin: 2%;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width:10%;
+
+}
+#text8:hover {
+  background: yellow;
+  color:black;
+}
