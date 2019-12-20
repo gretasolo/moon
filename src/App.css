@@ -156,7 +156,7 @@ button {
 }
 
 #text1:hover {
-  background:red;
+  background:yellow;
   color:black;
 }
 
@@ -173,7 +173,7 @@ button {
 
 }
 #text2:hover {
-  background: yellow;
+  background: red;
   color:black;
 }
 
@@ -269,7 +269,7 @@ button {
 }
 
 #text3:hover {
-  background:red;
+  background:yellow;
   color:black;
 }
 
@@ -286,7 +286,7 @@ button {
 
 }
 #text4:hover {
-  background: yellow;
+  background: red;
   color:black;
 }
 
@@ -516,7 +516,7 @@ button {
 }
 
 #text7:hover {
-  background:red;
+  background:yellow;
   color:black;
 }
 
@@ -533,6 +533,6 @@ button {
 
 }
 #text8:hover {
-  background: yellow;
+  background: red;
   color:black;
 }
